@@ -10,13 +10,39 @@
  li {
   color:green;
  }
+ 
+ 
+ .tree input[type="checkbox"]{
+  display:none;
+ }
+ 
+ .tree input[type="checkbox"]:checked~ul{
+  display:none;
+ }
+ 
  </style>
 </head>
 
 <body>
-<h2>1. 진혜림 <h2>
-<pre>
-<ol>
+ <ul class="tree">
+ <li>
+  <input type="checkbox" id="stdname">
+  <label for="stdname">학생이름 </label>
+   <ul>
+    <li> 진혜림 </li>
+    <li> 옥매 </li>
+    <li> 징징 </li>
+    <li> 정유 </li>
+  
+  </ul>
+ </li>
+</ul>
+</body>
+
+</html>
+
+
+
 <li>(  )은/는 (  ) 이에요/예요. </li>
 
  - (저)는 (진혜림)이에요. 
@@ -25,10 +51,7 @@
  - (그 사람)은 (아빠)예요. 
  - (이거)는 (포도)예요.
  
-<li> ( )은/는 (   )이/가  아니에요.  <li>
-</pre>
 
-
-</body>
-
-</html>
+ <li>(  )은/는 (  ) 이에요/예요. </li>
+<li> ( )은/는 (   )이/가  아니에요.  </li>
+<
