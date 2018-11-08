@@ -1,0 +1,13 @@
+ label {
+    color:green;
+   font-size:18px;
+  }
+  
+  .tree input[type="checkbox"]{
+   display:none; 
+  
+  }
+  
+  .tree input[type="checkbox"]:checked~ul{
+   display:none; 
+  }
